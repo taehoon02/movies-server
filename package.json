@@ -1,0 +1,18 @@
+{
+  "name": "my-first-graphql-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "graphql-yoga": "^1.16.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
